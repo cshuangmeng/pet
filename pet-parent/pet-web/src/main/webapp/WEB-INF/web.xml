@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    id="schedule-console" version="3.0">
+	<display-name>pet</display-name>
+	<!-- 会话超时设置 -->
+	<session-config>
+		<session-timeout>20</session-timeout>
+	</session-config>
+	<!-- 错误页面定义 -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/noFound</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/error</location>
+	</error-page>
+	<!-- 欢迎页面定义 -->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

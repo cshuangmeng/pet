@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="pet-web"
+  id="myeclipse.1495721782862"
+  context-root="/pet"
+  j2ee-spec="1.7"
+  archive="pet-web.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
